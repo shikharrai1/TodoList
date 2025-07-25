@@ -1,0 +1,78 @@
+.todo-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.todo-container h4 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.todo-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+.todo-button:hover {
+  background-color: #45a049;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fa7676;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.todo-text {
+  flex: 1;
+  font-size: 1rem;
+}
+
+.todo-text.done {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.todo-actions button {
+  margin-left: 10px;
+  padding: 6px 10px;
+  font-size: 0.85rem;
+  border-radius: 4px;
+}
+
+.mark-all-button {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #2196f3;
+}
+.mark-all-button:hover {
+  background-color: #1976d2;
+}
